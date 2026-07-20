@@ -1,0 +1,28 @@
+# Core
+numpy==1.26.4
+pandas==2.2.2
+
+# NLP
+spacy==3.8.14
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+nltk==3.8.1
+
+# Embeddings
+sentence-transformers==3.0.1
+transformers>=4.41,<5.0
+torch>=2.2,<3.0
+
+# Vector Database
+chromadb==0.5.3
+chroma-hnswlib==0.7.3
+
+# LLM / API
+openai>=1.30
+fastapi>=0.111
+uvicorn>=0.30
+typer>=0.12
+
+# Optional (recommended)
+scikit-learn>=1.5,<2.0
+scipy>=1.13,<2.0
+tqdm>=4.66
