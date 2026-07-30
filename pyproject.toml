@@ -3,6 +3,7 @@ name = "ragkit"
 version = "0.1.0"
 description = "RAG-powered knowledge extraction system"
 requires-python = ">=3.11"
+
 dependencies = [
     # Core
     "numpy>=2.0",
@@ -35,6 +36,14 @@ dependencies = [
 
 [tool.uv]
 package = true
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
 
 [build-system]
 requires = ["hatchling"]
