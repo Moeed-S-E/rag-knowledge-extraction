@@ -1,35 +1,35 @@
-# Week 3: Chunking Strategies
+# Week 3: Chunking Strategies & Sentence Embeddings
 
 ## Objectives
 
-- Implement fixed-size, recursive, and semantic chunking strategies
-- Benchmark chunk quality/size trade-offs
-- Recommend a chunking strategy with evidence
+- Implement chunking strategies: Fixed-size, Recursive Character, and Semantic Sentence chunking.
+- Handle edge cases in chunking (very short text, text without clear sentence boundaries, empty input).
+- Integrate `sentence-transformers` (`all-MiniLM-L6-v2`) to generate dense 384-dimensional embeddings.
+- Benchmark embedding generation time per chunk and calculate projected full dataset indexing duration.
+- Document chunking strategy decisions and model selection rationale.
 
-## Approach
+## Folder Structure
 
-_Describe what you built this week and why: key design decisions,
-alternatives considered, and any deviations from the plan (e.g. a data
-source or API being unreachable and what you substituted)._
-
-## What's in this folder
-
-- `scripts/` — runnable scripts for this week's deliverable
-- `reports/` — generated output (reports, benchmarks, figures)
+- `src/ragkit/chunking/strategies.py`: Implements `fixed_size_chunk`, `recursive_character_chunk`, and `semantic_sentence_chunk`.
+- `src/ragkit/embeddings/encoder.py`: `Encoder` class for embedding generation and indexing benchmarking.
+- `tests/test_chunking.py`: Unit tests for chunking edge cases.
+- `Week-3/scripts/run_chunking_embeddings.py`: Execution pipeline that chunks cleaned data, computes embeddings, logs timing, and exports results.
+- `Week-3/reports/chunking_embedding_report.md`: Detailed benchmark report and strategy decision documentation.
 
 ## How to Run
 
 ```bash
-# from the project root
-uv sync
-python Week-3/scripts/<script_name>.py
+# Run unit tests
+uv run python -m unittest discover -s tests
+
+# Run chunking & embedding pipeline
+uv run python Week-3/scripts/run_chunking_embeddings.py
 ```
 
-## Results
+## Benchmarks & Model Selection
 
-_Summarize key results/metrics here, or link to the report(s) in
-`reports/`._
-
-## Notes / Known Issues
-
-_Anything a reviewer should know: limitations, TODOs, environment quirks._
+- **Selected Strategy**: Recursive Character Chunking (`chunk_size=300`, `overlap=30`)
+- **Selected Model**: `sentence-transformers/all-MiniLM-L6-v2` (384-D)
+- **Avg Inference Time**: ~8.6 ms per chunk
+- **Throughput**: ~115.8 chunks/sec
+- **Projected 50,000 Chunks Indexing Time**: ~431.8 seconds (~7.2 minutes)
