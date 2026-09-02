@@ -1,0 +1,422 @@
+{
+  "case_count": 30,
+  "mean_generation_quality": 0.6667,
+  "citation_rate": 1.0,
+  "mean_support_score": 0.9397,
+  "mean_retrieval_latency_seconds": 8.5e-05,
+  "mean_generation_latency_seconds": 1e-06,
+  "known_limitations": [
+    "The included demo corpus is small and synthetic; replace it with a real 5,000+ document corpus for production benchmarking.",
+    "The offline generator is extractive and is not equivalent to a hosted language model.",
+    "Lexical support checks can miss paraphrases and do not prove factual correctness.",
+    "Transformer and ChromaDB quality depends on optional dependencies and available compute."
+  ],
+  "cases": [
+    {
+      "query": "How does retrieval augmented generation work?",
+      "expected_terms": [
+        "retrieval",
+        "generation"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 0.000251,
+      "generation_latency_seconds": 3e-06,
+      "total_latency_seconds": 0.000829
+    },
+    {
+      "query": "Why does RAG use retrieved passages?",
+      "expected_terms": [
+        "retrieved",
+        "passages"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 0.5,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 0.000105,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000419
+    },
+    {
+      "query": "What is a retriever?",
+      "expected_terms": [
+        "retriever"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 7.5e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000323
+    },
+    {
+      "query": "What is a generator in RAG?",
+      "expected_terms": [
+        "generator"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 7.3e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000338
+    },
+    {
+      "query": "How can RAG reduce hallucinations?",
+      "expected_terms": [
+        "grounded"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.6e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000368
+    },
+    {
+      "query": "What are text embeddings?",
+      "expected_terms": [
+        "embeddings",
+        "vectors"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 9.4e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000353
+    },
+    {
+      "query": "Why are nearby vectors useful?",
+      "expected_terms": [
+        "similar",
+        "vectors"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 7.9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000368
+    },
+    {
+      "query": "What can embeddings enable?",
+      "expected_terms": [
+        "search",
+        "clustering"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 7.9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000345
+    },
+    {
+      "query": "How are sentences represented for semantic search?",
+      "expected_terms": [
+        "vectors"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 6.9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000324
+    },
+    {
+      "query": "Which embedding model is preferred in this project?",
+      "expected_terms": [
+        "MiniLM"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 6.8e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000355
+    },
+    {
+      "query": "How do we measure retrieval quality?",
+      "expected_terms": [
+        "precision",
+        "recall"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 7.1e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000352
+    },
+    {
+      "query": "What is Precision at k?",
+      "expected_terms": [
+        "precision"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.2e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000325
+    },
+    {
+      "query": "What is Recall at k?",
+      "expected_terms": [
+        "recall"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 0.0001,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000367
+    },
+    {
+      "query": "Why use ground truth chunks?",
+      "expected_terms": [
+        "ground-truth",
+        "relevant"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.1e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000324
+    },
+    {
+      "query": "What can be changed during retrieval experiments?",
+      "expected_terms": [
+        "chunking",
+        "ranking"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 6.8e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000307
+    },
+    {
+      "query": "Why clean text before indexing?",
+      "expected_terms": [
+        "cleaning",
+        "chunks"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 0.000107,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000348
+    },
+    {
+      "query": "What does text cleaning remove?",
+      "expected_terms": [
+        "markup",
+        "whitespace"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 7.5e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000349
+    },
+    {
+      "query": "How are missing values handled?",
+      "expected_terms": [
+        "missing"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 7e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000301
+    },
+    {
+      "query": "What happens to extremely long text?",
+      "expected_terms": [
+        "long"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 8.1e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000353
+    },
+    {
+      "query": "Does the cleaner preserve non-Latin scripts?",
+      "expected_terms": [
+        "scripts"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.8e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000359
+    },
+    {
+      "query": "What does FastAPI expose?",
+      "expected_terms": [
+        "endpoints"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.7e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000336
+    },
+    {
+      "query": "Which API endpoint checks health?",
+      "expected_terms": [
+        "health"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 8.9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000367
+    },
+    {
+      "query": "Why are request logs useful?",
+      "expected_terms": [
+        "latency",
+        "failures"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.7e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000336
+    },
+    {
+      "query": "How does the API validate requests?",
+      "expected_terms": [
+        "typed",
+        "validation"
+      ],
+      "matched_terms": 1,
+      "generation_quality_score": 0.5,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.7e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.00035
+    },
+    {
+      "query": "What kind of service wraps the RAG system?",
+      "expected_terms": [
+        "FastAPI"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9375,
+      "retrieval_latency_seconds": 7.9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000356
+    },
+    {
+      "query": "What is the purpose of this demonstration corpus?",
+      "expected_terms": [
+        "demo",
+        "pipeline"
+      ],
+      "matched_terms": 2,
+      "generation_quality_score": 1.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.7e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000346
+    },
+    {
+      "query": "Where are generated reports stored?",
+      "expected_terms": [
+        "artifacts"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 7.8e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000351
+    },
+    {
+      "query": "What does the offline fallback use?",
+      "expected_terms": [
+        "TF-IDF",
+        "NumPy"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.7e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000389
+    },
+    {
+      "query": "What happens when the LLM key is missing?",
+      "expected_terms": [
+        "extractive",
+        "fallback"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9394,
+      "retrieval_latency_seconds": 9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000346
+    },
+    {
+      "query": "How can another person run the project?",
+      "expected_terms": [
+        "README",
+        "requirements"
+      ],
+      "matched_terms": 0,
+      "generation_quality_score": 0.0,
+      "has_citation": true,
+      "support_score": 0.9412,
+      "retrieval_latency_seconds": 7.9e-05,
+      "generation_latency_seconds": 1e-06,
+      "total_latency_seconds": 0.000375
+    }
+  ]
+}

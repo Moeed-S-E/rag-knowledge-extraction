@@ -1,0 +1,822 @@
+[
+  {
+    "id": "demo-00001-chunk-0000",
+    "document_id": "demo-00001",
+    "title": "Rag Notes 1",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00002-chunk-0000",
+    "document_id": "demo-00002",
+    "title": "Embeddings Notes 2",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00003-chunk-0000",
+    "document_id": "demo-00003",
+    "title": "Evaluation Notes 3",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00004-chunk-0000",
+    "document_id": "demo-00004",
+    "title": "Cleaning Notes 4",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00005-chunk-0000",
+    "document_id": "demo-00005",
+    "title": "Api Notes 5",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00006-chunk-0000",
+    "document_id": "demo-00006",
+    "title": "Rag Notes 6",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00007-chunk-0000",
+    "document_id": "demo-00007",
+    "title": "Embeddings Notes 7",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00008-chunk-0000",
+    "document_id": "demo-00008",
+    "title": "Evaluation Notes 8",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00009-chunk-0000",
+    "document_id": "demo-00009",
+    "title": "Cleaning Notes 9",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00010-chunk-0000",
+    "document_id": "demo-00010",
+    "title": "Api Notes 10",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00011-chunk-0000",
+    "document_id": "demo-00011",
+    "title": "Rag Notes 11",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00012-chunk-0000",
+    "document_id": "demo-00012",
+    "title": "Embeddings Notes 12",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00013-chunk-0000",
+    "document_id": "demo-00013",
+    "title": "Evaluation Notes 13",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00014-chunk-0000",
+    "document_id": "demo-00014",
+    "title": "Cleaning Notes 14",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00015-chunk-0000",
+    "document_id": "demo-00015",
+    "title": "Api Notes 15",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00016-chunk-0000",
+    "document_id": "demo-00016",
+    "title": "Rag Notes 16",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00017-chunk-0000",
+    "document_id": "demo-00017",
+    "title": "Embeddings Notes 17",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00018-chunk-0000",
+    "document_id": "demo-00018",
+    "title": "Evaluation Notes 18",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00019-chunk-0000",
+    "document_id": "demo-00019",
+    "title": "Cleaning Notes 19",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00020-chunk-0000",
+    "document_id": "demo-00020",
+    "title": "Api Notes 20",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00021-chunk-0000",
+    "document_id": "demo-00021",
+    "title": "Rag Notes 21",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00022-chunk-0000",
+    "document_id": "demo-00022",
+    "title": "Embeddings Notes 22",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00023-chunk-0000",
+    "document_id": "demo-00023",
+    "title": "Evaluation Notes 23",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00024-chunk-0000",
+    "document_id": "demo-00024",
+    "title": "Cleaning Notes 24",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00025-chunk-0000",
+    "document_id": "demo-00025",
+    "title": "Api Notes 25",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00026-chunk-0000",
+    "document_id": "demo-00026",
+    "title": "Rag Notes 26",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00027-chunk-0000",
+    "document_id": "demo-00027",
+    "title": "Embeddings Notes 27",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00028-chunk-0000",
+    "document_id": "demo-00028",
+    "title": "Evaluation Notes 28",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00029-chunk-0000",
+    "document_id": "demo-00029",
+    "title": "Cleaning Notes 29",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00030-chunk-0000",
+    "document_id": "demo-00030",
+    "title": "Api Notes 30",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00031-chunk-0000",
+    "document_id": "demo-00031",
+    "title": "Rag Notes 31",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00032-chunk-0000",
+    "document_id": "demo-00032",
+    "title": "Embeddings Notes 32",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00033-chunk-0000",
+    "document_id": "demo-00033",
+    "title": "Evaluation Notes 33",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00034-chunk-0000",
+    "document_id": "demo-00034",
+    "title": "Cleaning Notes 34",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00035-chunk-0000",
+    "document_id": "demo-00035",
+    "title": "Api Notes 35",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00036-chunk-0000",
+    "document_id": "demo-00036",
+    "title": "Rag Notes 36",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00037-chunk-0000",
+    "document_id": "demo-00037",
+    "title": "Embeddings Notes 37",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00038-chunk-0000",
+    "document_id": "demo-00038",
+    "title": "Evaluation Notes 38",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00039-chunk-0000",
+    "document_id": "demo-00039",
+    "title": "Cleaning Notes 39",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00040-chunk-0000",
+    "document_id": "demo-00040",
+    "title": "Api Notes 40",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00041-chunk-0000",
+    "document_id": "demo-00041",
+    "title": "Rag Notes 41",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00042-chunk-0000",
+    "document_id": "demo-00042",
+    "title": "Embeddings Notes 42",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00043-chunk-0000",
+    "document_id": "demo-00043",
+    "title": "Evaluation Notes 43",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00044-chunk-0000",
+    "document_id": "demo-00044",
+    "title": "Cleaning Notes 44",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00045-chunk-0000",
+    "document_id": "demo-00045",
+    "title": "Api Notes 45",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00046-chunk-0000",
+    "document_id": "demo-00046",
+    "title": "Rag Notes 46",
+    "text": "Retrieval augmented generation combines document retrieval with language model generation. A retriever finds relevant passages, and the generator writes an answer grounded in those passages. This demonstration document belongs to the rag topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Retrieval",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00047-chunk-0000",
+    "document_id": "demo-00047",
+    "title": "Embeddings Notes 47",
+    "text": "Text embeddings map words, sentences, or documents into vectors. Similar meanings tend to have nearby vectors, enabling semantic search and clustering. This demonstration document belongs to the embeddings topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "embeddings",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "RAG",
+      "Similar",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00048-chunk-0000",
+    "document_id": "demo-00048",
+    "title": "Evaluation Notes 48",
+    "text": "A retrieval system can be evaluated with precision at k and recall at k. Ground-truth relevant documents make it possible to compare chunking and ranking choices. This demonstration document belongs to the evaluation topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "retrieval",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "Ground",
+      "RAG",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00049-chunk-0000",
+    "document_id": "demo-00049",
+    "title": "Cleaning Notes 49",
+    "text": "Text cleaning removes markup, normalizes whitespace, and handles missing or extremely long values before documents are split into chunks. This demonstration document belongs to the cleaning topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "cleaning",
+    "sentiment_label": "negative",
+    "sentiment_score": -1,
+    "entities": [
+      "RAG",
+      "Text",
+      "This"
+    ]
+  },
+  {
+    "id": "demo-00050-chunk-0000",
+    "document_id": "demo-00050",
+    "title": "Api Notes 50",
+    "text": "FastAPI exposes typed HTTP endpoints for health checks, search, and question answering. Structured request logs make latency and failures observable. This demonstration document belongs to the api topic and contains repeatable reference material for the RAG pipeline.",
+    "source": "local-demo",
+    "position": 0,
+    "topic": "fastapi",
+    "sentiment_label": "neutral",
+    "sentiment_score": 0,
+    "entities": [
+      "HTTP",
+      "RAG",
+      "Structured",
+      "This"
+    ]
+  }
+]

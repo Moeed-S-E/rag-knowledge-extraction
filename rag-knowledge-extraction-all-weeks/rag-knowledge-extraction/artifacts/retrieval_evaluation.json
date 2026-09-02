@@ -1,0 +1,89 @@
+{
+  "case_count": 5,
+  "k": 5,
+  "mean_precision_at_k": 0.12,
+  "mean_recall_at_k": 0.6,
+  "mean_latency_seconds": 0.000114,
+  "cases": [
+    {
+      "query": "How does retrieval augmented generation work?",
+      "relevant_ids": [
+        "demo-00001-chunk-0000"
+      ],
+      "retrieved_ids": [
+        "demo-00001-chunk-0000",
+        "demo-00006-chunk-0000",
+        "demo-00016-chunk-0000",
+        "demo-00011-chunk-0000",
+        "demo-00026-chunk-0000"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "latency_seconds": 0.000264
+    },
+    {
+      "query": "What are text embeddings used for?",
+      "relevant_ids": [
+        "demo-00002-chunk-0000"
+      ],
+      "retrieved_ids": [
+        "demo-00002-chunk-0000",
+        "demo-00007-chunk-0000",
+        "demo-00012-chunk-0000",
+        "demo-00017-chunk-0000",
+        "demo-00027-chunk-0000"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "latency_seconds": 8.6e-05
+    },
+    {
+      "query": "How do we measure retrieval quality?",
+      "relevant_ids": [
+        "demo-00003-chunk-0000"
+      ],
+      "retrieved_ids": [
+        "demo-00001-chunk-0000",
+        "demo-00006-chunk-0000",
+        "demo-00016-chunk-0000",
+        "demo-00011-chunk-0000",
+        "demo-00026-chunk-0000"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "latency_seconds": 6.4e-05
+    },
+    {
+      "query": "How should text be cleaned?",
+      "relevant_ids": [
+        "demo-00004-chunk-0000"
+      ],
+      "retrieved_ids": [
+        "demo-00003-chunk-0000",
+        "demo-00008-chunk-0000",
+        "demo-00013-chunk-0000",
+        "demo-00018-chunk-0000",
+        "demo-00023-chunk-0000"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "latency_seconds": 7.3e-05
+    },
+    {
+      "query": "What does FastAPI expose?",
+      "relevant_ids": [
+        "demo-00005-chunk-0000"
+      ],
+      "retrieved_ids": [
+        "demo-00005-chunk-0000",
+        "demo-00010-chunk-0000",
+        "demo-00015-chunk-0000",
+        "demo-00020-chunk-0000",
+        "demo-00025-chunk-0000"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "latency_seconds": 8.1e-05
+    }
+  ]
+}

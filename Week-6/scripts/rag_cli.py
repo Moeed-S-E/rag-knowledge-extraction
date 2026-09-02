@@ -87,7 +87,11 @@ def main(
         user_prompt = RAG_USER_PROMPT_TEMPLATE.format(context=context, question=question)
         
         console.print("[dim italic]Generating answer...[/dim italic]")
-        answer = llm.generate(system_prompt=SYSTEM_PROMPT, user_prompt=user_prompt)
+        response = llm.generate(system_prompt=SYSTEM_PROMPT, user_prompt=user_prompt)
+        if isinstance(response, dict):
+            answer = response.get("answer", str(response))
+        else:
+            answer = str(response)
         generation_latency = (time.perf_counter() - generation_start) * 1000
         
         end_time = time.perf_counter()

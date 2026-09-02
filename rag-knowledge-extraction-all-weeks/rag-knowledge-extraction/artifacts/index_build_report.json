@@ -1,0 +1,8 @@
+{
+  "documents": 50,
+  "chunks": 50,
+  "embedding_provider": "tfidf-hashing-fallback",
+  "embedding_seconds": 0.0052,
+  "estimated_seconds_per_chunk": 0.000104,
+  "vector_store": "local"
+}

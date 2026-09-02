@@ -1,0 +1,15 @@
+{
+  "total_records": 50,
+  "missing_fields": {},
+  "missing_field_percentage": {
+    "id": 0.0,
+    "title": 0.0,
+    "text": 0.0
+  },
+  "duplicate_id_count": 0,
+  "duplicate_rate_percentage": 0.0,
+  "malformed_json_lines": 0,
+  "encoding_issue_count": 0,
+  "average_text_characters": 279.6,
+  "empty_text_count": 0
+}

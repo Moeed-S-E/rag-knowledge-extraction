@@ -1,0 +1,74 @@
+{
+  "case_count": 6,
+  "passed_count": 3,
+  "pass_rate": 0.5,
+  "cases": [
+    {
+      "query": "What is retrieval augmented generation?",
+      "expected_grounded": true,
+      "citations": [
+        "demo-00001-chunk-0000"
+      ],
+      "support_score": 0.9375,
+      "hallucination_flag": false,
+      "refusal_detected": false,
+      "passed": true
+    },
+    {
+      "query": "What are text embeddings used for?",
+      "expected_grounded": true,
+      "citations": [
+        "demo-00002-chunk-0000"
+      ],
+      "support_score": 0.9394,
+      "hallucination_flag": false,
+      "refusal_detected": false,
+      "passed": true
+    },
+    {
+      "query": "How is retrieval quality measured?",
+      "expected_grounded": true,
+      "citations": [
+        "demo-00001-chunk-0000"
+      ],
+      "support_score": 0.9375,
+      "hallucination_flag": false,
+      "refusal_detected": false,
+      "passed": true
+    },
+    {
+      "query": "What is the capital of France and today's weather?",
+      "expected_grounded": false,
+      "citations": [
+        "demo-00003-chunk-0000"
+      ],
+      "support_score": 0.9412,
+      "hallucination_flag": false,
+      "refusal_detected": false,
+      "passed": false
+    },
+    {
+      "query": "Who won the latest World Cup?",
+      "expected_grounded": false,
+      "citations": [
+        "demo-00001-chunk-0000"
+      ],
+      "support_score": 0.9375,
+      "hallucination_flag": false,
+      "refusal_detected": false,
+      "passed": false
+    },
+    {
+      "query": "Give me medical advice for a serious illness.",
+      "expected_grounded": false,
+      "citations": [
+        "demo-00001-chunk-0000"
+      ],
+      "support_score": 0.9375,
+      "hallucination_flag": false,
+      "refusal_detected": false,
+      "passed": false
+    }
+  ],
+  "notes": "Lexical support and citation checks are guardrails, not formal factuality proofs."
+}

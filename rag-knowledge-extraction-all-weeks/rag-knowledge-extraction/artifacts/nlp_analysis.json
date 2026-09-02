@@ -1,0 +1,952 @@
+{
+  "document_count": 50,
+  "topic_count": 4,
+  "topics": [
+    {
+      "topic": "retrieval",
+      "document_count": 20,
+      "sample_documents": [
+        {
+          "id": "demo-00001",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00003",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00006",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00008",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00011",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00013",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00016",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00018",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00021",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00023",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00026",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00028",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00031",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00033",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00036",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00038",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00041",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00043",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00046",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Retrieval",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00048",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "Ground",
+            "RAG",
+            "This"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "embeddings",
+      "document_count": 10,
+      "sample_documents": [
+        {
+          "id": "demo-00002",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00007",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00012",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00017",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00022",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00027",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00032",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00037",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00042",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00047",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "RAG",
+            "Similar",
+            "Text",
+            "This"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "cleaning",
+      "document_count": 10,
+      "sample_documents": [
+        {
+          "id": "demo-00004",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00009",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00014",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00019",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00024",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00029",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00034",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00039",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00044",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00049",
+          "sentiment": {
+            "label": "negative",
+            "positive_hits": 0,
+            "negative_hits": 1,
+            "score": -1
+          },
+          "entities": [
+            "RAG",
+            "Text",
+            "This"
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "fastapi",
+      "document_count": 10,
+      "sample_documents": [
+        {
+          "id": "demo-00005",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00010",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00015",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00020",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00025",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00030",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00035",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00040",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00045",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        },
+        {
+          "id": "demo-00050",
+          "sentiment": {
+            "label": "neutral",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "score": 0
+          },
+          "entities": [
+            "HTTP",
+            "RAG",
+            "Structured",
+            "This"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_corpus_terms": [
+    {
+      "term": "document",
+      "count": 60
+    },
+    {
+      "term": "demonstration",
+      "count": 50
+    },
+    {
+      "term": "belongs",
+      "count": 50
+    },
+    {
+      "term": "topic",
+      "count": 50
+    },
+    {
+      "term": "contains",
+      "count": 50
+    },
+    {
+      "term": "repeatable",
+      "count": 50
+    },
+    {
+      "term": "reference",
+      "count": 50
+    },
+    {
+      "term": "material",
+      "count": 50
+    },
+    {
+      "term": "pipeline",
+      "count": 50
+    },
+    {
+      "term": "retrieval",
+      "count": 30
+    }
+  ],
+  "sentiment_distribution": {
+    "neutral": 40,
+    "negative": 10
+  },
+  "entity_frequency": {
+    "RAG": 50,
+    "This": 50,
+    "Text": 20,
+    "Retrieval": 10,
+    "Similar": 10,
+    "Ground": 10,
+    "HTTP": 10,
+    "Structured": 10
+  },
+  "lda_topic_model": {
+    "provider": "keyword-fallback",
+    "topic_count": 4,
+    "topics": [
+      {
+        "topic_id": 0,
+        "keywords": [
+          "retrieval"
+        ],
+        "document_ids": [
+          "demo-00001",
+          "demo-00003",
+          "demo-00006",
+          "demo-00008",
+          "demo-00011",
+          "demo-00013",
+          "demo-00016",
+          "demo-00018",
+          "demo-00021",
+          "demo-00023",
+          "demo-00026",
+          "demo-00028",
+          "demo-00031",
+          "demo-00033",
+          "demo-00036",
+          "demo-00038",
+          "demo-00041",
+          "demo-00043",
+          "demo-00046",
+          "demo-00048"
+        ],
+        "sample_documents": [
+          "demo-00001",
+          "demo-00003",
+          "demo-00006",
+          "demo-00008",
+          "demo-00011",
+          "demo-00013",
+          "demo-00016",
+          "demo-00018",
+          "demo-00021",
+          "demo-00023",
+          "demo-00026",
+          "demo-00028",
+          "demo-00031",
+          "demo-00033",
+          "demo-00036",
+          "demo-00038",
+          "demo-00041",
+          "demo-00043",
+          "demo-00046",
+          "demo-00048"
+        ]
+      },
+      {
+        "topic_id": 1,
+        "keywords": [
+          "embeddings"
+        ],
+        "document_ids": [
+          "demo-00002",
+          "demo-00007",
+          "demo-00012",
+          "demo-00017",
+          "demo-00022",
+          "demo-00027",
+          "demo-00032",
+          "demo-00037",
+          "demo-00042",
+          "demo-00047"
+        ],
+        "sample_documents": [
+          "demo-00002",
+          "demo-00007",
+          "demo-00012",
+          "demo-00017",
+          "demo-00022",
+          "demo-00027",
+          "demo-00032",
+          "demo-00037",
+          "demo-00042",
+          "demo-00047"
+        ]
+      },
+      {
+        "topic_id": 2,
+        "keywords": [
+          "cleaning"
+        ],
+        "document_ids": [
+          "demo-00004",
+          "demo-00009",
+          "demo-00014",
+          "demo-00019",
+          "demo-00024",
+          "demo-00029",
+          "demo-00034",
+          "demo-00039",
+          "demo-00044",
+          "demo-00049"
+        ],
+        "sample_documents": [
+          "demo-00004",
+          "demo-00009",
+          "demo-00014",
+          "demo-00019",
+          "demo-00024",
+          "demo-00029",
+          "demo-00034",
+          "demo-00039",
+          "demo-00044",
+          "demo-00049"
+        ]
+      },
+      {
+        "topic_id": 3,
+        "keywords": [
+          "fastapi"
+        ],
+        "document_ids": [
+          "demo-00005",
+          "demo-00010",
+          "demo-00015",
+          "demo-00020",
+          "demo-00025",
+          "demo-00030",
+          "demo-00035",
+          "demo-00040",
+          "demo-00045",
+          "demo-00050"
+        ],
+        "sample_documents": [
+          "demo-00005",
+          "demo-00010",
+          "demo-00015",
+          "demo-00020",
+          "demo-00025",
+          "demo-00030",
+          "demo-00035",
+          "demo-00040",
+          "demo-00045",
+          "demo-00050"
+        ]
+      }
+    ]
+  }
+}

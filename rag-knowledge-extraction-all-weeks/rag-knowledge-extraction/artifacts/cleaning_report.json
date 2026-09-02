@@ -1,0 +1,7 @@
+{
+  "input_records": 50,
+  "output_records": 50,
+  "dropped_records": 0,
+  "drop_percentage": 0.0,
+  "max_characters": 20000
+}
