@@ -27,3 +27,6 @@ scikit-learn>=1.5,<2.0
 scipy>=1.13,<2.0
 tqdm>=4.66
 python-dotenv
+matplotlib
+seaborn
+numpy
