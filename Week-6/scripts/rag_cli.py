@@ -3,9 +3,13 @@
 import sys
 import time
 from pathlib import Path
+# pyrefly: ignore [missing-import]
 import typer
+# pyrefly: ignore [missing-import]
 from rich.console import Console
+# pyrefly: ignore [missing-import]
 from rich.panel import Panel
+# pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
 
 # Add src directory to sys.path
