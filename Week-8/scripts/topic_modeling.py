@@ -70,7 +70,8 @@ def setup_mock_corpus():
     
     # Check if we already added them
     existing_docs = store.search(query_embeddings=encoder.encode(["test"])[0].tolist(), k=1)
-    if existing_docs and len(existing_docs.get("ids", [[]])[0]) > 0:
+    ids_list = existing_docs.get("ids", []) if existing_docs else []
+    if existing_docs and len(ids_list) > 0 and len(ids_list[0]) > 0:
         # Check if the DB has enough docs
         count = len(collection.get()["ids"])
         if count > 50:

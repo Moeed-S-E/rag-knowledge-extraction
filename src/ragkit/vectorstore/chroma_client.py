@@ -38,7 +38,7 @@ class ChromaStore:
             metadatas=metadatas
         )
 
-    def search(self, query_embeddings: List[List[float]], k: int = 5) -> Dict[str, Any]:
+    def search(self, query_embeddings: List[List[float]], k: int = 5, where: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """Retrieve top-K chunks for the given query embeddings."""
         if not self.collection:
             raise ValueError("Collection not initialized. Call get_or_create_collection first.")
@@ -56,8 +56,13 @@ class ChromaStore:
         # Handle top-k being larger than collection count
         k = min(k, self.collection.count())
         
-        results = self.collection.query(
-            query_embeddings=query_embeddings,
-            n_results=k
-        )
+        query_args = {
+            "query_embeddings": query_embeddings,
+            "n_results": k
+        }
+        
+        if where is not None:
+            query_args["where"] = where
+            
+        results = self.collection.query(**query_args)
         return results
