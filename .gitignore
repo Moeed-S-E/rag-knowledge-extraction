@@ -14,3 +14,15 @@ data/chroma_db/*
 
 # uv
 .uv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# Logs
+Week-10/logs/
+*.log
+
+# OS
+.DS_Store

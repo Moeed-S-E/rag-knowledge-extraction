@@ -163,3 +163,12 @@ citations.2
 {"time": "2026-09-24 21:54:07,172", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=12401.3"}
 {"time": "2026-09-24 21:54:07,240", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=12484.1"}
 {"time": "2026-09-24 21:55:46,088", "level": "INFO", "message": "RAG system shut down."}
+{"time": "2026-09-24 22:06:06,567", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-24 22:06:30,925", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-24 22:06:30,927", "level": "INFO", "message": "RAG system shut down."}
+{"time": "2026-09-24 22:07:10,386", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-24 22:07:25,623", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-24 22:07:48,272", "level": "INFO", "message": "Received query: HI"}
+{"time": "2026-09-24 22:07:52,990", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4718.2"}
+{"time": "2026-09-24 22:15:34,429", "level": "INFO", "message": "Received query: HI"}
+{"time": "2026-09-24 22:15:38,447", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4018.2"}

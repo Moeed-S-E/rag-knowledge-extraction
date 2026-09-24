@@ -79,10 +79,20 @@ async def lifespan(app: FastAPI):
         state.clear()
         logger.info("RAG system shut down.")
 
+from fastapi.middleware.cors import CORSMiddleware
+
 # ---------------------------------------------------------------------------
 # Application & Models
 # ---------------------------------------------------------------------------
 app = FastAPI(title="RAG Knowledge Extraction API", lifespan=lifespan)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # In production, replace with specific origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class QueryRequest(BaseModel):
     question: str = Field(..., description="The user's question to the RAG system")

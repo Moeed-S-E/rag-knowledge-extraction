@@ -38,22 +38,35 @@ Every query request, including the number of retrieved chunks, boolean success s
 A concurrent testing script (`Week-10/scripts/test_api_concurrent.py`) was created utilizing Python's `ThreadPoolExecutor` to blast the `/query` endpoint with multiple simultaneous requests. 
 The FastAPI event loop and the OpenRouter API connection both remained stable without dropping 500 errors.
 
+## Frontend Architecture
+
+A React Single-Page Application (SPA) was added to interface beautifully with the RAG API. 
+Located in the `frontend/` directory, it was built using:
+- **Vite** for lightning-fast compilation
+- **Material-UI (MUI)** for premium UI components
+- **Tailwind CSS v4** for utility styling and micro-animations
+- **TypeScript** for strict type safety matching the API's Pydantic schemas
+
 ## How to Run
 
 **1. Start the API Server:**
 ```bash
-uv run uvicorn Week-10.api.main:app --host 0.0.0.0 --port 8000
+source .venv/bin/activate
+uvicorn Week-10.api.main:app --host 127.0.0.1 --port 8000
 ```
 *(Wait until you see `RAG system fully initialized.` in the console)*
 
-**2. Test the API:**
+**2. Start the React Frontend:**
+Open a new terminal window:
+```bash
+cd frontend
+bun run dev
+```
+Then open `http://localhost:5173` in your browser.
+
+**3. Test the API Concurrently (Optional):**
 Open a new terminal and run the test script:
 ```bash
-uv run python Week-10/scripts/test_api_concurrent.py
-```
-Or use `curl`:
-```bash
-curl -X POST http://127.0.0.1:8000/query \
-     -H "Content-Type: application/json" \
-     -d '{"question": "What happens when you diversify stocks?", "k": 3}'
+source .venv/bin/activate
+python Week-10/scripts/test_api_concurrent.py
 ```
