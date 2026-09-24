@@ -1,35 +1,59 @@
-# Week 10: Sentiment Analysis
+# Week 10: RAG API Development (FastAPI)
 
 ## Objectives
+- Wrap the entire RAG system in a production-ready FastAPI application.
+- Create endpoints for querying (`/query`), checking health (`/health`), and fetching metadata (`/metadata`).
+- Implement request logging to a structured log file.
+- Add HTTP error handling for edge cases.
+- Test the API interface under concurrent load.
 
-- Run sentiment analysis over the corpus
-- Analyze sentiment distribution by topic/category
-- Document any correlations found
+## Architecture
 
-## Approach
+The system has been transformed from an interactive CLI to a stateless API service. 
+To optimize for latency, the heavily memory-intensive models (like the SentenceTransformer embeddings) and the database connections (ChromaDB Persistent Client) are loaded strictly once during the FastAPI `lifespan` startup event, rather than instantiated on every request.
 
-_Describe what you built this week and why: key design decisions,
-alternatives considered, and any deviations from the plan (e.g. a data
-source or API being unreachable and what you substituted)._
+### Endpoints
 
-## What's in this folder
+1. **`GET /health`**
+   - Returns a simple `{"status": "ok"}` to verify the server is active.
+2. **`GET /metadata`**
+   - Returns the amount of documents actively stored in the ChromaDB vector store.
+3. **`POST /query`**
+   - The primary RAG route. It accepts a JSON payload:
+     ```json
+     {
+       "question": "What is SpaceX?",
+       "k": 3,
+       "topic": "SPACE-GALAXY",
+       "entity_boost": "SpaceX"
+     }
+     ```
+   - It executes the full pipeline (Embedding generation, DB Search with optional Topic/Entity filters, LLM Structured Generation, and LLM Hallucination checking) and returns the JSON result.
 
-- `scripts/` — runnable scripts for this week's deliverable
-- `reports/` — generated output (reports, benchmarks, figures)
+### Structured Logging
+Every query request, including the number of retrieved chunks, boolean success status of the hallucination check, and all latencies are logged directly to `Week-10/logs/api.log` using standard python `logging`.
+
+## Testing
+
+A concurrent testing script (`Week-10/scripts/test_api_concurrent.py`) was created utilizing Python's `ThreadPoolExecutor` to blast the `/query` endpoint with multiple simultaneous requests. 
+The FastAPI event loop and the OpenRouter API connection both remained stable without dropping 500 errors.
 
 ## How to Run
 
+**1. Start the API Server:**
 ```bash
-# from the project root
-uv sync
-python Week-10/scripts/<script_name>.py
+uv run uvicorn Week-10.api.main:app --host 0.0.0.0 --port 8000
 ```
+*(Wait until you see `RAG system fully initialized.` in the console)*
 
-## Results
-
-_Summarize key results/metrics here, or link to the report(s) in
-`reports/`._
-
-## Notes / Known Issues
-
-_Anything a reviewer should know: limitations, TODOs, environment quirks._
+**2. Test the API:**
+Open a new terminal and run the test script:
+```bash
+uv run python Week-10/scripts/test_api_concurrent.py
+```
+Or use `curl`:
+```bash
+curl -X POST http://127.0.0.1:8000/query \
+     -H "Content-Type: application/json" \
+     -d '{"question": "What happens when you diversify stocks?", "k": 3}'
+```

@@ -1,0 +1,165 @@
+{"time": "2026-09-24 21:51:53,255", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-24 21:52:18,567", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-24 21:52:19,257", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 0)"}
+{"time": "2026-09-24 21:52:19,259", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 1)"}
+{"time": "2026-09-24 21:52:19,264", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 3)"}
+{"time": "2026-09-24 21:52:19,266", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 4)"}
+{"time": "2026-09-24 21:52:19,268", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 2)"}
+{"time": "2026-09-24 21:52:28,906", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-24 21:52:32,374", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=13109.6"}
+{"time": "2026-09-24 21:52:32,398", "level": "ERROR", "message": "Failed to process query: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type"}
+Traceback (most recent call last):
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/Week-10/api/main.py", line 213, in execute_query
+    return QueryResponse(
+           ^^^^^^^^^^^^^^
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/.venv/lib/python3.12/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+{"time": "2026-09-24 21:52:32,606", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=13339.4"}
+{"time": "2026-09-24 21:52:32,606", "level": "ERROR", "message": "Failed to process query: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type"}
+Traceback (most recent call last):
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/Week-10/api/main.py", line 213, in execute_query
+    return QueryResponse(
+           ^^^^^^^^^^^^^^
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/.venv/lib/python3.12/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+{"time": "2026-09-24 21:52:32,804", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=13546.9"}
+{"time": "2026-09-24 21:52:32,804", "level": "ERROR", "message": "Failed to process query: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type"}
+Traceback (most recent call last):
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/Week-10/api/main.py", line 213, in execute_query
+    return QueryResponse(
+           ^^^^^^^^^^^^^^
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/.venv/lib/python3.12/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+{"time": "2026-09-24 21:52:33,166", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=13898.2"}
+{"time": "2026-09-24 21:52:33,166", "level": "ERROR", "message": "Failed to process query: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type"}
+Traceback (most recent call last):
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/Week-10/api/main.py", line 213, in execute_query
+    return QueryResponse(
+           ^^^^^^^^^^^^^^
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/.venv/lib/python3.12/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+{"time": "2026-09-24 21:52:36,477", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=17218.0"}
+{"time": "2026-09-24 21:52:36,477", "level": "ERROR", "message": "Failed to process query: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type"}
+Traceback (most recent call last):
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/Week-10/api/main.py", line 213, in execute_query
+    return QueryResponse(
+           ^^^^^^^^^^^^^^
+  File "/home/moeed/Parall-Internship/rag-knowledge-extraction/.venv/lib/python3.12/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for QueryResponse
+citations.0
+  Input should be a valid string [type=string_type, input_value=0, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.1
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+citations.2
+  Input should be a valid string [type=string_type, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+{"time": "2026-09-24 21:52:42,728", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-24 21:52:42,730", "level": "INFO", "message": "RAG system shut down."}
+{"time": "2026-09-24 21:53:27,441", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-24 21:53:31,731", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-24 21:53:42,938", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-24 21:53:43,669", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-24 21:53:54,756", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 0)"}
+{"time": "2026-09-24 21:53:54,762", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 2)"}
+{"time": "2026-09-24 21:53:54,763", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 1)"}
+{"time": "2026-09-24 21:53:54,770", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 4)"}
+{"time": "2026-09-24 21:53:54,772", "level": "INFO", "message": "Received query: What is the impact of deep learning? (Request 3)"}
+{"time": "2026-09-24 21:54:01,685", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=6923.7"}
+{"time": "2026-09-24 21:54:01,688", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=6916.3"}
+{"time": "2026-09-24 21:54:06,794", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=12031.2"}
+{"time": "2026-09-24 21:54:07,172", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=12401.3"}
+{"time": "2026-09-24 21:54:07,240", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=12484.1"}
+{"time": "2026-09-24 21:55:46,088", "level": "INFO", "message": "RAG system shut down."}
