@@ -7,14 +7,15 @@ from chromadb.config import Settings
 
 
 class ChromaStore:
-    def __init__(self, persist_dir: str = "data/chroma_db"):
+    def __init__(self, persist_dir: str = "data/chroma_db") -> None:
+        """Initialize the ChromaDB persistent client."""
         self.persist_dir = persist_dir
         # Ensure the persistence directory exists
         os.makedirs(self.persist_dir, exist_ok=True)
         self.client = chromadb.PersistentClient(path=self.persist_dir, settings=Settings(anonymized_telemetry=False))
-        self.collection = None
+        self.collection: Optional[chromadb.Collection] = None
 
-    def get_or_create_collection(self, collection_name: str):
+    def get_or_create_collection(self, collection_name: str) -> chromadb.Collection:
         """Create a new collection or get an existing one."""
         self.collection = self.client.get_or_create_collection(
             name=collection_name,
@@ -22,7 +23,7 @@ class ChromaStore:
         )
         return self.collection
 
-    def add_chunks(self, ids: List[str], documents: List[str], embeddings: List[List[float]], metadatas: Optional[List[Dict[str, Any]]] = None):
+    def add_chunks(self, ids: List[str], documents: List[str], embeddings: List[List[float]], metadatas: Optional[List[Dict[str, Any]]] = None) -> None:
         """Add documents and their embeddings to the collection."""
         if not self.collection:
             raise ValueError("Collection not initialized. Call get_or_create_collection first.")

@@ -30,3 +30,7 @@ python-dotenv
 matplotlib
 seaborn
 numpy
+
+# Testing
+pytest
+httpx

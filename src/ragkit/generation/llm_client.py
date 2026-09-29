@@ -1,10 +1,12 @@
 """DeepSeek / OpenRouter API wrapper."""
 
 import os
+from typing import Dict, Any
 from openai import OpenAI, APIConnectionError, RateLimitError, APIError
 
 class LLMClient:
-    def __init__(self, provider: str = "openrouter"):
+    def __init__(self, provider: str = "openrouter") -> None:
+        """Initialize the LLM client with the given provider."""
         self.provider = provider
         
         # Configure API Keys and Base URLs
@@ -24,7 +26,7 @@ class LLMClient:
         
         self.model = "deepseek/deepseek-chat"
 
-    def generate(self, system_prompt: str, user_prompt: str) -> dict:
+    def generate(self, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
         """Generate a structured JSON answer from the LLM."""
         import json
         try:
@@ -42,7 +44,7 @@ class LLMClient:
         except Exception as e:
             return {"answer": f"API Request Failed: {type(e).__name__} - {str(e)}", "citations": []}
 
-    def check_hallucination(self, system_prompt: str, user_prompt: str) -> dict:
+    def check_hallucination(self, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
         """Check if the generated answer hallucinated beyond the provided context."""
         import json
         try:

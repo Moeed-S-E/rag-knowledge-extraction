@@ -172,3 +172,66 @@ citations.2
 {"time": "2026-09-24 22:07:52,990", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4718.2"}
 {"time": "2026-09-24 22:15:34,429", "level": "INFO", "message": "Received query: HI"}
 {"time": "2026-09-24 22:15:38,447", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4018.2"}
+{"time": "2026-09-29 17:12:56,515", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-09-29 17:13:14,521", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-09-29 17:13:14,524", "level": "INFO", "message": "Received query: What is attention in deep learning?"}
+{"time": "2026-09-29 17:13:19,993", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=5469.7"}
+{"time": "2026-09-29 17:13:19,996", "level": "INFO", "message": "Received query: How do Convolutional Neural Networks work?"}
+{"time": "2026-09-29 17:13:23,200", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=3203.7"}
+{"time": "2026-09-29 17:13:23,204", "level": "INFO", "message": "Received query: What is the difference between RNN and LSTM?"}
+{"time": "2026-09-29 17:13:26,536", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=3331.9"}
+{"time": "2026-09-29 17:13:26,538", "level": "INFO", "message": "Received query: Explain the Transformer architecture."}
+{"time": "2026-09-29 17:13:27,489", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=951.4"}
+{"time": "2026-09-29 17:13:27,491", "level": "INFO", "message": "Received query: What is a residual connection?"}
+{"time": "2026-09-29 17:13:31,170", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=3678.9"}
+{"time": "2026-09-29 17:13:31,173", "level": "INFO", "message": "Received query: How does batch normalization help training?"}
+{"time": "2026-09-29 17:13:35,298", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4125.6"}
+{"time": "2026-09-29 17:13:35,301", "level": "INFO", "message": "Received query: What is the vanishing gradient problem?"}
+{"time": "2026-09-29 17:13:37,996", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2695.3"}
+{"time": "2026-09-29 17:13:37,999", "level": "INFO", "message": "Received query: Explain dropout in neural networks."}
+{"time": "2026-09-29 17:13:40,251", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2251.4"}
+{"time": "2026-09-29 17:13:40,255", "level": "INFO", "message": "Received query: What is the role of the activation function?"}
+{"time": "2026-09-29 17:13:42,287", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2032.6"}
+{"time": "2026-09-29 17:13:42,290", "level": "INFO", "message": "Received query: Describe the Adam optimizer."}
+{"time": "2026-09-29 17:13:45,092", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2802.4"}
+{"time": "2026-09-29 17:13:45,096", "level": "INFO", "message": "Received query: What is transfer learning?"}
+{"time": "2026-09-29 17:13:51,370", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=6274.0"}
+{"time": "2026-09-29 17:13:51,372", "level": "INFO", "message": "Received query: How does fine-tuning work in NLP?"}
+{"time": "2026-09-29 17:13:52,579", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1207.2"}
+{"time": "2026-09-29 17:13:52,583", "level": "INFO", "message": "Received query: What is BERT?"}
+{"time": "2026-09-29 17:13:55,732", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=3148.8"}
+{"time": "2026-09-29 17:13:55,735", "level": "INFO", "message": "Received query: Explain generative adversarial networks (GANs)."}
+{"time": "2026-09-29 17:13:57,847", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2112.1"}
+{"time": "2026-09-29 17:13:57,851", "level": "INFO", "message": "Received query: What is self-supervised learning?"}
+{"time": "2026-09-29 17:14:00,662", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2810.9"}
+{"time": "2026-09-29 17:14:00,664", "level": "INFO", "message": "Received query: How is reinforcement learning used in robotics?"}
+{"time": "2026-09-29 17:14:03,582", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2917.9"}
+{"time": "2026-09-29 17:14:03,586", "level": "INFO", "message": "Received query: What are word embeddings?"}
+{"time": "2026-09-29 17:14:05,630", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2043.8"}
+{"time": "2026-09-29 17:14:05,633", "level": "INFO", "message": "Received query: What is cross-entropy loss?"}
+{"time": "2026-09-29 17:14:10,691", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=5058.0"}
+{"time": "2026-09-29 17:14:10,695", "level": "INFO", "message": "Received query: Explain max pooling."}
+{"time": "2026-09-29 17:14:15,871", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=5175.4"}
+{"time": "2026-09-29 17:14:15,875", "level": "INFO", "message": "Received query: What is weight decay?"}
+{"time": "2026-09-29 17:14:20,376", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4500.7"}
+{"time": "2026-09-29 17:14:20,378", "level": "INFO", "message": "Received query: How do autoencoders work?"}
+{"time": "2026-09-29 17:14:21,605", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1227.9"}
+{"time": "2026-09-29 17:14:21,609", "level": "INFO", "message": "Received query: What is the purpose of a validation set?"}
+{"time": "2026-09-29 17:14:28,822", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=7212.7"}
+{"time": "2026-09-29 17:14:28,824", "level": "INFO", "message": "Received query: Explain early stopping."}
+{"time": "2026-09-29 17:14:29,892", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1067.9"}
+{"time": "2026-09-29 17:14:29,895", "level": "INFO", "message": "Received query: What are hyper-parameters?"}
+{"time": "2026-09-29 17:14:33,293", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=3398.6"}
+{"time": "2026-09-29 17:14:33,297", "level": "INFO", "message": "Received query: How does stochastic gradient descent differ from standard GD?"}
+{"time": "2026-09-29 17:14:34,917", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1620.0"}
+{"time": "2026-09-29 17:14:34,919", "level": "INFO", "message": "Received query: What is data augmentation?"}
+{"time": "2026-09-29 17:14:36,147", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1227.4"}
+{"time": "2026-09-29 17:14:36,149", "level": "INFO", "message": "Received query: Describe few-shot learning."}
+{"time": "2026-09-29 17:14:39,406", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=3257.2"}
+{"time": "2026-09-29 17:14:39,408", "level": "INFO", "message": "Received query: What is multi-modal learning?"}
+{"time": "2026-09-29 17:14:41,677", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2268.5"}
+{"time": "2026-09-29 17:14:41,681", "level": "INFO", "message": "Received query: Explain the concept of model distillation."}
+{"time": "2026-09-29 17:14:43,520", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1838.6"}
+{"time": "2026-09-29 17:14:43,522", "level": "INFO", "message": "Received query: What happens if you ask an off-topic question about cooking pasta?"}
+{"time": "2026-09-29 17:14:47,814", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4292.6"}
+{"time": "2026-09-29 17:14:47,816", "level": "INFO", "message": "RAG system shut down."}

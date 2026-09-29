@@ -1,4 +1,5 @@
-import { useState, FormEvent } from 'react';
+import { useState } from 'react';
+import type { FormEvent } from 'react';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import { 
   Container, Typography, TextField, Button, Box, 
