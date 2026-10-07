@@ -235,3 +235,24 @@ citations.2
 {"time": "2026-09-29 17:14:43,522", "level": "INFO", "message": "Received query: What happens if you ask an off-topic question about cooking pasta?"}
 {"time": "2026-09-29 17:14:47,814", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4292.6"}
 {"time": "2026-09-29 17:14:47,816", "level": "INFO", "message": "RAG system shut down."}
+{"time": "2026-10-04 19:01:30,070", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-10-04 19:03:29,465", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-10-04 19:11:46,708", "level": "INFO", "message": "Received query: What is the Transformer architecture?"}
+{"time": "2026-10-04 19:11:53,386", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=6677.6"}
+{"time": "2026-10-04 19:20:14,756", "level": "INFO", "message": "Received query: Why do RNNs struggle with long sequences?"}
+{"time": "2026-10-04 19:20:20,057", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=5300.9"}
+{"time": "2026-10-04 19:20:25,917", "level": "INFO", "message": "Received query: Why do RNNs struggle with long sequences?"}
+{"time": "2026-10-04 19:20:30,707", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4790.6"}
+{"time": "2026-10-04 19:27:57,378", "level": "INFO", "message": "Received query: Explain vanishing gradients"}
+{"time": "2026-10-04 19:27:59,836", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=2458.6"}
+{"time": "2026-10-05 10:50:27,305", "level": "INFO", "message": "Initializing RAG system components..."}
+{"time": "2026-10-05 10:50:48,611", "level": "INFO", "message": "RAG system fully initialized."}
+{"time": "2026-10-05 10:51:45,358", "level": "INFO", "message": "Received query: How does Entity Boosting work?"}
+{"time": "2026-10-05 10:51:52,367", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=7009.5"}
+{"time": "2026-10-05 10:52:13,394", "level": "INFO", "message": "Received query: how CNN and RNN works"}
+{"time": "2026-10-05 10:52:14,781", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=1386.7"}
+{"time": "2026-10-05 10:52:20,894", "level": "INFO", "message": "Received query: RNN"}
+{"time": "2026-10-05 10:52:25,817", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4922.6"}
+{"time": "2026-10-05 10:52:31,208", "level": "INFO", "message": "Received query: CNN"}
+{"time": "2026-10-05 10:52:36,069", "level": "INFO", "message": "Query processed | retrieved_chunks=3 | is_supported=True | total_latency_ms=4860.8"}
+{"time": "2026-10-05 10:53:10,879", "level": "INFO", "message": "RAG system shut down."}
